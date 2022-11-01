@@ -1,0 +1,23 @@
+- vamos utilizar o fastify no lugar do express, prisma, banco de dados sqlite, diagrama ERD
+npm init -y
+npm i typescript -D
+npx tsc --init
+npm i fastify
+npm i tsx -D   serve para compilar o código e ja executar
+package.json
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+
+esse código acima serve para rodar o servidor em typescript e watch para resetar quando salvamos
+
+npm i prisma -D
+npm @prisma/client
+npx prisma init --datasource-provider SQLite
+após criar a tabela a gente executa esse codigo
+npx prisma migrate dev
+npx prisma studio  - para olhar o banco no navegador
+
+npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
+marmaid serve para gerar diagramas
+npx prisma generate

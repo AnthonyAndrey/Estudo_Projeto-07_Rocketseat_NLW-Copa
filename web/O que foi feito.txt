@@ -1,0 +1,11 @@
+npx create-next-app@latest --use-npm
+
+se você der um export default em uma page
+o nome da function vira uma rota 
+
+existem sites pesquisadores que pesquisam sem usar javascript, e as aplicações react precisam do javascript
+para montar o site no frontend, com o next isso é montado no serverside, e não no cliente side, montando a 
+página antes de mandar, tem um problema, ações fetch são javascript, para funcionar utilizamos a função do next
+export const getServerSideProps = async () => {
+fetch...
+}
