@@ -21,3 +21,14 @@ npx prisma studio  - para olhar o banco no navegador
 npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
 marmaid serve para gerar diagramas
 npx prisma generate
+
+vamos usar uma api que passamos o iso code do pais e ela vai retornar o nome do país
+criamos os seeds
+no package.json vamos adicionar as configurações "prisma":{"seed":"tsx prisma/seed.ts"}
+depois no terminal npx prisma db seed
+
+npm i zod
+biblioteca de validação para typescript
+
+npm i short-unique-id
+é igual o uuid so que da pra definir a quantidade de códigos

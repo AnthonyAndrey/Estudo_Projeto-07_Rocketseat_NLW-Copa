@@ -9,3 +9,8 @@ página antes de mandar, tem um problema, ações fetch são javascript, para fu
 export const getServerSideProps = async () => {
 fetch...
 }
+
+
+estamos usando o tailwind
+
+para mexer no html no next, temos que criar um arquivo no pages chamado _document.tsx
