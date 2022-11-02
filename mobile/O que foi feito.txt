@@ -1,0 +1,14 @@
+vamos utilizar o nativeBase(componente library) para adicionar componentes
+npm install native-base
+para utilizarmos svg dentro da aplicação
+npx expo install react-native-svg@12.1.1
+para garantir que os elementos sejam exibidos na área segura da tela
+npx expo install react-native-safe-area-context@3.3.2
+
+para as bibliotecas não darem conflitos vamos adicionar a configuração
+  "overrides":{
+    "react": "18.0.0"
+  },
+no arquivo package.json
+
+npx expo install expo font @expo-google-fonts/roboto
